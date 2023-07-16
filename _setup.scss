@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+header {
+    width: 200vh;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    top: 11px;
+    left: 300px;
+    width: 62px;
+    height: 62px;
+    border-radius: 31px;
+    opacity: 1;
+}
+
+header p1 {
+
+    padding: 10px;
+    height: 35px;
+    margin-right: auto;
+}
+
+
+.nav__links {
+    width: 600px;
+    height: 37px;
+    margin: 0 auto;
+    padding-left: 90px;
+
+}
+
+
+.nav__links ul {
+    list-style-type: none;
+}
+
+.nav__links li {
+
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+
+.nav__links li a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.hamburger {
+    color: rgb(255, 255, 255);
+    margin-left: 575px;
+
+}
+
+.box1 {
+    width: auto;
+    height: 400px;
+    padding: 20px;
+    background-color: #56aaf3;
+    border: 1px solid #000;
+    padding-top: 50px;
+}
+
+.box1 h2 {
+    font-size: 50pt;
+    color: #000000;
+    font-family: Josefin+Sans;
+    text-align: center;
+    line-height: 3;
+}
+
+p {
+    color: #000000;
+    font-size: 15pt;
+    text-align: center;
+    line-height: 1.35;
+    padding: 15px;
+
+}
+
+.container {
+    width: 200vh;
+    height: 90pt;
+    box-shadow: 0 0 4px #00000029;
+    font-size: 1pt;
+    justify-content: space-between;
+
+}
+
+.box2 {
+    margin: 30px;
+    padding: 15px;
+    width: auto;
+    height: 440px;
+
+}
+
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box2 h3 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 30pt;
+    color: #000000;
+    font-family: Josefin+Sans;
+    text-align: center;
+    line-height: 2;
+}
+
+.box2 button {
+    font: normal normal bold 20px/30px Heebo;
+    letter-spacing: 0.3px;
+    color: #3A3A3A;
+    border: 1px solid #000;
+    background: #56aaf3 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    display: block;
+    margin: 9px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.container1 {
+    display: flex;
+    background-color: #ccc;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.container1 h4 {
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 30px;
+}
+
+.container1 p {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.card {
+    background: white;
+    width: 18rem;
+    // height: 400px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.card-img {
+
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card h5 {
+    padding: 10px;
+    text-align: center;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center;
+}
+
+.card a {
+    background-color: lightskyblue;
+    color: black;
+    padding: 1px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+
+.rect {
+    width: 770px;
+    height: 671px;
+    background: 0% 0% no-repeat padding-box;
+
+}
+
+.box3 {
+    width: auto;
+    height: auto;
+    background: #3A3A3A 0% 0% no-repeat padding-box;
+    position: relative;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.box3 h6 {
+    padding: 10px;
+    text-align: center;
+    font: normal normal 900 36px/53px Josefin+Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 2;
+
+}
+
+.box3 p {
+    padding: 10px;
+    text-align: center;
+    font: normal normal normal 20px/29px Josefin+Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.box3 form {
+    height: auto;
+    text-align: right;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1300px;
+    padding-right: 90px;
+    background: 0% 0% no-repeat padding-box;
+}
+
+label {
+
+    height: 40px;
+    border-radius: 4px;
+    margin: 10px 0 18px 0;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #000;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 30px;
+    color: #607d8b;
+    background-color: #fff;
+    text-align: right;
+}
+
+textarea {
+    width: 400px;
+    height: 180px;
+    resize: none;
+}
+
+footer {
+    width: auto;
+    height: 200px;
+    background: #1AE0EC 0% 0% no-repeat padding-box;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 90px 189px;
+    justify-content: space-evenly;
+
+}
+
+.iconname {
+
+    text-align: center;
+    font: normal normal normal 14px/21px Heebo;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+
+}
+
+@media (max-width:550px) {
+    header {
+        top: 1px;
+        left: 0.00054931640625px;
+        width: 393px;
+        height: 80px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    }
+
+    .nav__links {
+        width: 39px;
+        height: 28px;
+    }
+}
